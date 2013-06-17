@@ -1,15 +1,28 @@
 @import "bootstrap";
 body { padding-top: 60px; }
-@import "bootstrap-responsive";
+/* @import "bootstrap-responsive"; */
 
 $green:      #ABC217;
 $tomato-red: #F04F0A;
 
+.navbar .brand {
+ position: fixed;    
+ overflow: visible;
+ padding-left: 0;    
+ padding-top: 0;
+ }
+
+.navbar-inner {
+  background: $green;
+}
+
 .navbar{
-  .container { height: 6em; }
+  .container { 
+    height: 2em;
+  }
   .nav {
     padding-top: 4em;
-    padding-left: 2em; 
+    padding-left: 10em; 
     li {
       a { 
       color: white;
@@ -24,8 +37,8 @@ $tomato-red: #F04F0A;
   }
 }
 
-.navbar-inner {
-  background: $green;
+.pattern-image {
+  width: 400px;
 }
 
 #logo {
@@ -36,8 +49,13 @@ $tomato-red: #F04F0A;
     left: 10px;
   }
 
+#logo2 {
+  height: 140px;
+  width: 140px;
+}
+
 body { 
-  padding-top: 8em;
+  padding-top: 10em;
   padding-left: 5em;
 }
 
